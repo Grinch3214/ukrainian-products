@@ -34,12 +34,10 @@ body {
 
 .wrapper {
 	background: var(--main-color);
-	height: 100vh;
 	height: calc(var(--vh, 1vh) * 100);
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
-	overflow-x: hidden;
 }
 
 .container {
