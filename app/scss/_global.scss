@@ -1,0 +1,47 @@
+html, body {
+	// height: 100%;
+	font-family: 'Jura';
+	font-weight: 400;
+}
+html {
+	font-size: 20px;
+	@media (max-width: 1440px) {
+		font-size: 16px;
+	}
+	@media (max-width: 1366px) {
+		font-size: 15px;
+	}
+	@media (max-width: 992px) {
+		font-size: 14px;
+	}
+	@media (max-width: 768px) {
+		font-size: 13px;
+	}
+	@media (max-width: 500px) {
+		font-size: 12px;
+	}
+}
+body {
+	line-height: 1.1rem;
+}
+
+.hidden {
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.wrapper {
+	background: var(--main-color);
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	overflow-x: hidden;
+}
+
+.container {
+	padding: 0 24px;
+}

@@ -1,0 +1,39 @@
+.soon {
+	padding: 50px 0;
+	text-align: center;
+	color: var(--black-color);
+	&__box {
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 3.5rem;
+		line-height: 4rem;
+		letter-spacing: .5rem;
+		&:first-child {
+			@media (max-width: 500px) {
+				margin-bottom: 8px;
+			}
+		}
+		@media (max-width: 500px) {
+			font-size: 2.5rem;
+			line-height: 3rem;
+		}
+	}
+
+	&__geroyam-slava {
+		margin-top: 60px;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		@media (max-width: 1366px) {
+			margin-top: 45px;
+		}
+		@media (max-width: 500px) {
+			font-size: 1.334rem;
+			margin-top: 30px;
+		}
+	}
+
+	&__svg {
+	}
+}
